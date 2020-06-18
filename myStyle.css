@@ -1,6 +1,12 @@
 .header-top{
-  height: 3em;
+  height: 10em;
 }
 .contactus{
   margin: auto;
+}
+
+@media (max-width:896px) {
+  .header-top{
+    height: 100em;
+  }
 }
